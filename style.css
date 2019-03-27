@@ -1,12 +1,28 @@
+body{
+    background: #e6e6e6;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
 table {
     border-collapse: collapse;
     margin-top: 2%;
     margin: auto;
+    width: 50%;
 }
 table, th, td {
-    border: 2px solid;
-    padding: 5px;
+    border: 1px solid #bfbfbf;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding: 15px;
     text-align: center;
+    font-size: 23px;
+}
+
+th{
+    background: #555555;
+    color: white;
+    font-size: 25px;
 }
 
 .btn
@@ -17,11 +33,12 @@ table, th, td {
     width: auto;
     height: auto;
     padding: 10px;
-    font-size: 15px;
+    font-size: 23px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 .btn:hover{
-    background-color: #555555;
+    background-color: #cc04c2;
 }
 
 .rouge{
@@ -40,8 +57,22 @@ table, th, td {
 input {
     border: none;
     text-align: center;
+    font-size: 21px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 .add{
     border: solid;
+}
+
+.ajout{
+    text-align: center;
+    height: 5%;
+    padding: 2%;
+    box-shadow: 5px 5px 0px #aaa;
+    background: #555555;
+}
+
+.tab{
+    margin-top: 2%;
 }

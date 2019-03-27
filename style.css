@@ -1,0 +1,47 @@
+table {
+    border-collapse: collapse;
+    margin-top: 2%;
+    margin: auto;
+}
+table, th, td {
+    border: 2px solid;
+    padding: 5px;
+    text-align: center;
+}
+
+.btn
+{
+    border: none;
+    border-radius: 10%;
+    color: white;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.btn:hover{
+    background-color: #555555;
+}
+
+.rouge{
+    background-color: #f44336;
+}
+
+.vert 
+{
+    background-color: #4CAF50;
+}
+.bleu 
+{
+    background-color: #008CBA;
+}
+
+input {
+    border: none;
+    text-align: center;
+}
+
+.add{
+    border: solid;
+}
